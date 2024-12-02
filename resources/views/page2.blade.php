@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +8,9 @@
 <body>
    <h1>Welcome View and Blade ! </h1>
    <hr>
+   <h3>Page2</h3>
+   <hr>
    <h3>The value is: {{ $value }}</h3>
 </body>
 </html>
+
