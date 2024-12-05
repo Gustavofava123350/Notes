@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\MainController;
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,13 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    echo "Hello Word!!";
-});
-Route::get('/about', function () {
-    echo "About us";
-});
-
-Route::get('/main/{value}', [MainController::class, 'index']);
-Route::get('/page2/{value}', [MainController::class, 'page2']);
-Route::get('/page3/{value}', [MainController::class, 'page3']);
+//auth routes
+Route::get('/login', [AuthController::class, 'login']);
+Route::post('/loginSubmit', [AuthController::class, 'loginSubmit']);
+;

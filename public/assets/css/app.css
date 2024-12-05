@@ -1,0 +1,53 @@
+/* Ajustes gerais para um layout compacto */
+body {
+    font-size: 14px; /* Fonte menor para reduzir o tamanho geral */
+    background-color:darkorchid;
+
+}
+
+.card {
+    max-width: 350px; /* Limitar a largura do card */
+    margin: 0 auto; /* Centralizar o card na tela */
+    padding: 15px; /* Menos preenchimento no card */
+}
+
+.card-header h4 {
+    font-size: 18px; /* Tamanho de fonte menor no título */
+    margin-bottom: 15px; /* Menos espaço abaixo do título */
+    color: darkorchid;
+}
+
+.card-body {
+    padding: 10px; /* Menos preenchimento no corpo do card */
+}
+
+.form-label {
+    font-size: 13px; /* Tamanho de fonte menor para os rótulos */
+}
+
+.form-control {
+    font-size: 14px; /* Tamanho de fonte menor nos campos de entrada */
+    padding: 8px; /* Menos preenchimento dentro dos campos */
+    height: auto; /* Ajuste da altura do campo de entrada */
+    color: crimson;
+}
+
+.btn {
+    padding: 10px; /* Botão com menos preenchimento */
+    font-size: 14px; /* Tamanho de fonte menor no botão */
+    background-color:cadetblue;
+}
+
+/* Reduzir o tamanho da imagem do logo */
+.card-header img {
+    max-width: 30px; /* Reduzir o tamanho da imagem da logo */
+}
+
+/* Reduzir as margens gerais para compactar mais */
+.mb-3 {
+    margin-bottom: 10px; /* Menos espaço entre os campos do formulário */
+}
+
+.text-center {
+    text-align: center; /* Garantir que o conteúdo fique centralizado */
+}
